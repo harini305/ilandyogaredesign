@@ -1,0 +1,218 @@
+:root {
+  --olive: #867711;
+  --olive-text: #6b5f0e;
+  --mustard: #e4cc2b;
+  --butter: #eede75;
+  --butter-soft: #f9f4d0;
+  --butter-wash: #fcfaee;
+  --ink: #181818;
+  --muted: #4a4a4a;
+  --line: #e7e2cc;
+  --white: #ffffff;
+
+  --container: 1200px;
+  --gutter: clamp(16px, 4vw, 40px);
+  --header-h: 68px;
+  --section: clamp(72px, 9vw, 128px);
+  --col-gap: clamp(32px, 6vw, 88px);
+  --head-gap: clamp(18px, 3.2vh, 32px);
+  /* Vertical padding of nav-target sections: scales with screen height so a section fits one screen */
+  --section-y: clamp(24px, 5.5vh, 56px);
+  --card-img: clamp(130px, 22vh, 240px);
+  /* Footer has a fixed height so Contact + footer fill the last screen exactly */
+  --footer-h: 72px;
+
+  --fs-h1: clamp(2.6rem, 1.7rem + 3.8vw, 4.75rem);
+  --fs-h2: clamp(2rem, 1.55rem + 1.7vw, 3rem);
+  --fs-h3: clamp(1.5rem, 1.3rem + 0.75vw, 1.95rem);
+  --fs-h4: 1.3rem;
+  --fs-body: 1.0625rem;
+  --fs-small: 0.875rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* Header is --header-h tall plus a 1px border; sections land flush beneath it */
+  scroll-padding-top: calc(var(--header-h) + 1px);
+  -webkit-text-size-adjust: 100%;
+}
+
+@media (max-width: 600px) {
+  :root {
+    --footer-h: 128px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--white);
+  color: var(--ink);
+  font-family: var(--font-body), sans-serif;
+  font-size: var(--fs-body);
+  line-height: 1.7;
+  font-variant-numeric: lining-nums;
+  overflow-x: clip;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-family: var(--font-heading), serif;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.005em;
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: var(--fs-h1);
+  line-height: 1.02;
+}
+h2 {
+  font-size: var(--fs-h2);
+}
+h3 {
+  font-size: var(--fs-h3);
+}
+h4 {
+  font-size: var(--fs-h4);
+  font-weight: 600;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  font: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
+}
+
+.container {
+  width: min(100% - 2 * var(--gutter), var(--container));
+  margin-inline: auto;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 48px;
+  padding: 12px 24px;
+  border: 1px solid var(--olive);
+  background: var(--olive);
+  color: var(--white);
+  font-family: var(--font-body), sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.button:hover {
+  background: var(--mustard);
+  border-color: var(--mustard);
+  color: var(--ink);
+}
+
+.button--quiet {
+  background: transparent;
+  border-color: var(--ink);
+  color: var(--ink);
+}
+
+.button--quiet:hover {
+  background: var(--butter);
+  border-color: var(--butter);
+}
+
+.textlink {
+  display: inline-block;
+  padding: 4px 0;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: var(--olive);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 6px;
+  transition: text-decoration-color 0.2s ease, color 0.2s ease;
+}
+
+.textlink:hover {
+  color: var(--olive-text);
+  text-decoration-color: var(--mustard);
+  text-decoration-thickness: 2px;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: absolute;
+  left: 12px;
+  top: -60px;
+  z-index: 100;
+  padding: 10px 16px;
+  background: var(--ink);
+  color: var(--white);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 12px;
+}
+
+/* Hero items start hidden only when motion is enabled; the fallback reveals them if JS never runs. */
+.motion [data-hero-item],
+.motion [data-hero-image] {
+  opacity: 0;
+  animation: motion-fallback 0s 2.5s forwards;
+}
+
+@keyframes motion-fallback {
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "hero": {
+    "width": 1088,
+    "height": 1180,
+    "srcs": [
+      {
+        "src": "/images/hero-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/hero-1088.webp",
+        "width": 1088
+      }
+    ]
+  },
+  "shala": {
+    "width": 2250,
+    "height": 1266,
+    "srcs": [
+      {
+        "src": "/images/shala-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/images/shala-1400.webp",
+        "width": 1400
+      }
+    ]
+  },
+  "sound-journey": {
+    "width": 2115,
+    "height": 1190,
+    "srcs": [
+      {
+        "src": "/images/sound-journey-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/images/sound-journey-1400.webp",
+        "width": 1400
+      }
+    ]
+  },
+  "gong": {
+    "width": 895,
+    "height": 557,
+    "srcs": [
+      {
+        "src": "/images/gong-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/gong-895.webp",
+        "width": 895
+      }
+    ]
+  },
+  "yoga": {
+    "width": 2250,
+    "height": 1266,
+    "srcs": [
+      {
+        "src": "/images/yoga-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/images/yoga-1400.webp",
+        "width": 1400
+      }
+    ]
+  },
+  "oracle-deck": {
+    "width": 1440,
+    "height": 1800,
+    "srcs": [
+      {
+        "src": "/images/oracle-deck-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/oracle-deck-1000.webp",
+        "width": 1000
+      }
+    ]
+  },
+  "retreat-holiday": {
+    "width": 3024,
+    "height": 4032,
+    "srcs": [
+      {
+        "src": "/images/retreat-holiday-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/retreat-holiday-1000.webp",
+        "width": 1000
+      }
+    ]
+  },
+  "retreat-mini": {
+    "width": 3024,
+    "height": 4032,
+    "srcs": [
+      {
+        "src": "/images/retreat-mini-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/retreat-mini-1000.webp",
+        "width": 1000
+      }
+    ]
+  },
+  "retreat-mermaid": {
+    "width": 1280,
+    "height": 853,
+    "srcs": [
+      {
+        "src": "/images/retreat-mermaid-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/retreat-mermaid-1000.webp",
+        "width": 1000
+      }
+    ]
+  },
+  "retreat-restore": {
+    "width": 1478,
+    "height": 1698,
+    "srcs": [
+      {
+        "src": "/images/retreat-restore-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/retreat-restore-1000.webp",
+        "width": 1000
+      }
+    ]
+  },
+  "venue": {
+    "width": 1232,
+    "height": 737,
+    "srcs": [
+      {
+        "src": "/images/venue-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/images/venue-1232.webp",
+        "width": 1232
+      }
+    ]
+  },
+  "ganesha": {
+    "width": 1440,
+    "height": 1800,
+    "srcs": [
+      {
+        "src": "/images/ganesha-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/images/ganesha-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "savasana": {
+    "width": 3024,
+    "height": 4032,
+    "srcs": [
+      {
+        "src": "/images/savasana-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/savasana-1000.webp",
+        "width": 1000
+      }
+    ]
+  },
+  "blessing": {
+    "width": 1440,
+    "height": 606,
+    "srcs": [
+      {
+        "src": "/images/blessing-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/images/blessing-1440.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "celebration": {
+    "width": 1280,
+    "height": 853,
+    "srcs": [
+      {
+        "src": "/images/celebration-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/celebration-1000.webp",
+        "width": 1000
+      }
+    ]
+  },
+  "hammock-detail": {
+    "width": 824,
+    "height": 883,
+    "srcs": [
+      {
+        "src": "/images/hammock-detail-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/hammock-detail-824.webp",
+        "width": 824
+      }
+    ]
+  },
+  "buddha": {
+    "width": 3024,
+    "height": 1650,
+    "srcs": [
+      {
+        "src": "/images/buddha-1000.webp",
+        "width": 1000
+      },
+      {
+        "src": "/images/buddha-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "/images/buddha-2400.webp",
+        "width": 2400
+      }
+    ]
+  }
+}

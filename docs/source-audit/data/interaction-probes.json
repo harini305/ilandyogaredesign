@@ -1,0 +1,69 @@
+{
+ "navBefore": {
+  "color": "rgb(24, 24, 24)",
+  "bg": "rgba(0, 0, 0, 0)",
+  "td": "none"
+ },
+ "navHover": {
+  "color": "rgb(34, 34, 34)",
+  "bg": "rgba(0, 0, 0, 0)",
+  "td": "none"
+ },
+ "navCurrent": "rgb(34, 34, 34)",
+ "ctaBefore": {
+  "bg": "rgb(134, 119, 17)",
+  "border": "0px none rgb(0, 0, 0)",
+  "radius": "0px",
+  "labelFont": "Arial, Helvetica, sans-serif",
+  "labelSize": "10px",
+  "labelColor": "rgb(0, 0, 0)",
+  "labelLs": "normal",
+  "w": 350,
+  "h": 71,
+  "transition": "0.2s, visibility"
+ },
+ "ctaHover": {
+  "bg": "rgb(228, 204, 43)",
+  "labelColor": "rgb(0, 0, 0)",
+  "border": "0px none rgb(0, 0, 0)"
+ },
+ "video": [
+  {
+   "autoplay": true,
+   "loop": true,
+   "muted": true,
+   "controls": false,
+   "playsInline": true,
+   "paused": true,
+   "duration": 18.958333,
+   "w": 1280,
+   "h": 720
+  }
+ ],
+ "mapIframe": [
+  {
+   "src": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt",
+   "rect": "{\"x\":0.5,\"y\":15125.25,\"width\":1439.5,\"height\":350,\"top\":15125.25,\"right\":1440,\"bottom\":15475.25,\"left\":0.5}"
+  }
+ ],
+ "slideUrlBefore": "https://www.islandyogalembongan.com/home",
+ "homeSlides": [
+  "Here For You",
+  "Worshops Retreats",
+  "Magical Experiences"
+ ],
+ "homeSlideshowText": [
+  "CHOOSE YOUR EXPERIENCE\nSound . Dance . Oracle . Yoga\u00c2\u00a0\nBeautiful island experiances to help you slow down, reconnect and feel good.\nBOOK NOW",
+  "Opening Hours\n\nCome Visit\n\nMon - Fri: 8:am - 6pm- later with events\n\nSat & Sun: Check our schedule\n\nInstagram for upcoming events\n\n\u00e2\u20ac\u2039",
+  "Opening Hours\n\nCome Visit\n\nMon - Fri: 8:am - 6pm- later with events\n\nSat & Sun: Check our schedule\n\nInstagram for upcoming events\n\n\u00e2\u20ac\u2039",
+  "Make time for yourself\n\nHere For You",
+  "Make time for yourself",
+  "Get in Touch\n\nwelcomeyogashala@gmail.com\n\n+62 81246186550\n\nName\nEmail\nSubject\nMessage\nSubmit",
+  "Get in Touch\n\nwelcomeyogashala@gmail.com\n\n+62 81246186550\n\nName\nEmail\nSubject\nMessage\nSubmit"
+ ],
+ "afterSessionClick": "https://www.islandyogalembongan.com/service-page/holiday-yoga-sound-day-retreat",
+ "afterSessionText": "Skip to Main Content\n\nIsland Yoga & Sound Lembongan\u00c2\u00a0\n\nBook Now\n\nSchedule\n\nOMG oracle\n\nRetreats\n\nQuestions?\n\nHoliday Yoga & Sound Day Retreat\n\nA full day of wellness & feel good experiences.\n\n9 hr\n9 hr\n770 Rupiah Indonesia\nRp\u00c2\u00a0770\nIsland Yoga\nService Description\n\nUnwind and rejuvenate with our special Holiday Yoga & Sound Day Retreat at The Yoga Shala Lembo. This full day of yoga and feel-good experiences includes a morning Vinyasa session, followed by a unique Hammock Soundscape relaxation experience. After a relaxing break at a nearby caf\u00c3\u00a9, join us for a gentle pre-sunset Yin yoga class. The day concludes with your choice of a Gong relaxation or Sound Journey session. It's the perfect way to treat yourself to a day of tranquility and wellness.\n\nUpcoming Sessions\nTime Zone:\nCentral Indonesia Time (WITA)\nTuesday, 27 Oct\n10:00\n9 hr\n9 hours\nWellness Coordinator\nThursday, 29 Oct\n10:00\n9 hr\n9 hours\nWellness Coordinator\nFriday, 30 Oct\n10:00\n9 hr\n9 hours\nWellness Coordinator\nTuesday, 3 Nov\n10:00\n9 hr\n9 hours\nWellness Coordinator\nThursday, 5 Nov\n10:00\n9 hr\n9 hours\nWellness Coordinator\nFriday, 6 Nov\n10:00\n9 hr\n9 hours\nWellness Coordinator\nTuesday, 10 Nov\n10:00\n9 hr\n9 hours\nWellness Coordinator\nPrevious\n1\nNext\nContact Details\n\nIsland Yoga Lembongan, Lembongan island, Jungutbatu, Klungkung Regency, Bali, Indonesia\n\n+6281246186550\n\nwelcomeyogashala@gmail.com\n\nIsland Yoga and Sound Lembongan\n\nIsland Yoga Lembongan Island,\u00c2\u00a0Jungutbatu,\u00c2\u00a0Nusa Lembongan, Klungkung Regency,\u00c2\u00a0\u00c2\u00a0Bali 80771.Please ch",
+ "afterRequestToBook": "https://www.islandyogalembongan.com/booking-calendar/mermaid-yoga-half-day-retreat?timezone=Asia%2FMakassar&referral=service_details_widget",
+ "afterRtbText": "Island Yoga & Sound Lembongan\u00c2\u00a0\n\nBook Now\n\nSchedule\n\nOMG oracle\n\nRetreats\n\nQuestions?\n\nBack\nSchedule your service\n\nCheck out our availability and book the date and time that works for you\n\nIsland Yoga and Sound Lembongan\n\nIsland Yoga Lembongan Island,\u00c2\u00a0Jungutbatu,\u00c2\u00a0Nusa Lembongan, Klungkung Regency,\u00c2\u00a0\u00c2\u00a0Bali 80771.Please check Google Maps for pin drop location.\n\n\u00c2\u00a92022 by The Yoga Shala Lembongan.",
+ "afterMoreInfo": "https://www.islandyogalembongan.com/service-page/oracle-cards-coconuts-workshop?referral=service_list_widget"
+}

@@ -1,0 +1,6 @@
+# Not needed to build or serve the site: Phase 1 audit (screenshots, original
+# full-size photos, video, reports) and the local image-processing script.
+docs/
+scripts/
+*.bak
+*.log
